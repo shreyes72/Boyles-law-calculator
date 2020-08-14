@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -26,10 +27,12 @@ header {
 
 .navigator {
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .navigator ul{
   list-style: none;
+  display: flex;
 }
 
 .navigator ul li {
@@ -43,4 +46,8 @@ header {
 
 .navigator ul li a:Hover {
   border-bottom: black solid 1px;
+}
+
+.know-values label {
+  padding: 10px;
 }

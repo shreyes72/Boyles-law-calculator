@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lnag="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A descirption to this web site">
+  <title>Boyle's law calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <!--Oswal font-->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Boyle's law calculator</h1>
+    <p>With this web page you can find the unkown value of your chemistry exercise.</p>
+  </header>
+
+  <div class="calculator" id="calculator">
+
+    <h2>The calculator</h2>
+    <p>Please select the value that you need to know:</p>
+
+    <nav class="navigator">
+      <ul>
+	<li><a href="initial-pressure.html">(P1) Initial pressure</a></li>
+	<li><a href="initial-volume.html">(V1) Initial volume</a></li>
+	<li><a href="final-pressure.html">(V2) Final pressure</a></li>
+      </ul>
+    </nav>
+
+    <div class="know-values">
+      <label for="p1">P1 = </label>
+      <input type="number" name="p1" id="p1">
+      <label for="v1">V1 = </label>
+      <input type="number" name="v1" id="v1">
+      <label for="p2">P2 = </label>
+      <input type="number" name="p2" id="p2">
+      <button type="submit">Let's go</button>
+    </div>
+
+  </div>
+
+  <script href="scripts.js"></script>
+</body>
+</html>
