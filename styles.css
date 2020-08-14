@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #CFCFCF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.calculator {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: white;
+  height: 400px;
+}
+
+.navigator {
+  margin-top: 25px;
+}
+
+.navigator ul{
+  list-style: none;
+}
+
+.navigator ul li {
+  padding: 10px;
+}
+
+.navigator ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigator ul li a:Hover {
+  border-bottom: black solid 1px;
+}
